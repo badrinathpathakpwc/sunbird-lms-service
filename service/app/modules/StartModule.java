@@ -13,7 +13,7 @@ public class StartModule extends AbstractModule {
     try {
       bind(ApplicationStart.class).asEagerSingleton();
     } catch (Exception | Error e) {
-      e.printStackTrace();
+   //   e.printStackTrace();
     }
     ProjectLogger.log("StartModule:configure: End", LoggerEnum.INFO.name());
   }
